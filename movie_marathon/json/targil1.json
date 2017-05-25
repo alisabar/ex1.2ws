@@ -1,0 +1,43 @@
+{
+    "genres":[{
+        "id":1,
+        "genre":"drama",
+        "movies":[{
+            "name":"Forrest Gump",
+            "year":"1994"
+        },
+        {
+            "name":"Rain Man",
+              "year":"1988"
+        }
+        ]
+    },
+    {
+        "id":2,
+        "genre":"comedy",
+        "movies":[{
+            "name":"Clueless",
+            "year":"1995"
+        },
+        {
+            "name":"Austin Powers",
+            "year":"1997"
+        }
+        ]
+    },
+    {
+        "id":3,
+        "genre":"action",
+        "movies":[{
+            "name":"Matrix",
+            "year":"1999"
+        },
+        {
+            "name":"Fast and Furious",
+            "year":"2016"
+        }
+        ]
+    }
+
+    ]
+}
