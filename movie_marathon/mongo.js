@@ -4,7 +4,7 @@ mongoose.connect('mongodb://db_usr:dbpass@ds111549.mlab.com:11549/db_ringapp2017
 var Genre=require('./schema.js');
 var movieSchema=require('./schemaMovie.js');
 
-//var Movie=mongoose.model('Movie',movieSchema);
+var Movie=mongoose.model('Movie',movieSchema);
 
 //var Movie=require('./schemaMovie');
 module.exports = class Mongo {
@@ -73,7 +73,7 @@ module.exports = class Mongo {
 
             console.log(`found ${moviesArray.length} movies `+JSON.stringify(moviesArray));
             return moviesArray;
-            
+
         });
     }
 
