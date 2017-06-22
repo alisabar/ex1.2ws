@@ -42,7 +42,7 @@ module.exports = class MovieMarathon {
               }
           }).catch(function(err){
             console.log('getMoviesByGenrePost error '+err);
-            res.status(500).json({"err":"error on my app, I will fix it soon.email me at support@very-serious-site.org"});
+            res.status(500).json({"err":"error on my app, I will fix it soon."});
         });
 }
 
