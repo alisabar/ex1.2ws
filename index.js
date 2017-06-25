@@ -3,12 +3,13 @@ const http = require('http'),
       express = require('express'),
       data = require("./json/targil1.json"),
       app = express(),
+      cors = require('cors'),
       bodyParser = require('body-parser'),
       port = process.env.PORT || 8080;
 
 var Marathon = require('./movie_marathon');
 var myMarathon=new Marathon();
-
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
  
